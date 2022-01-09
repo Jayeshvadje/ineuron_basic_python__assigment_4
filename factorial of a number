@@ -1,0 +1,15 @@
+#Python Program to Find the Factorial of a Number
+
+#define factorial here
+factorial=1
+
+#take a input from a user
+a=int(input("enter the number \n "))
+
+#use for loop to do to check a factorial
+for i in range(1,a+1):
+    factorial=factorial*i
+    print(factorial)
+    #using the if for 0th factorial
+if a==0:
+    print(f"factorial of {a} is 1")
