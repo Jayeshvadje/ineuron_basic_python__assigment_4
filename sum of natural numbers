@@ -1,0 +1,15 @@
+#Python Program to Find the Sum of Natural Numbers
+
+#take a input from user
+number = int(input("Please Enter any Number: "))
+
+#initilize the values
+total = 0
+value = 1
+
+#use while loop to do the task
+while (value <= number):
+    total = total + value
+    value = value + 1
+
+print("The Sum of Natural Numbers from 1 to {0} =  {1}".format(number, total))
